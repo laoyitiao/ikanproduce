@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/ikanproduce/',
   lastUpdated: true,
   title: "iKan影视",
   description: "全网最新影视剧在线观看",
