@@ -13,3 +13,4 @@
 - 更换接口地址,提升下载速度
 
 下载地址：https://mp-35032f61-a623-4efd-9e30-d4659cdcfd39.cdn.bspapp.com/desktop/iKan影视_0.2.0_x64_zh-CN.msi
+
