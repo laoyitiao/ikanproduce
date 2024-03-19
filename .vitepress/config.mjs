@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-
+import { fileURLToPath, URL } from 'node:url'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lastUpdated: true,
@@ -23,5 +23,17 @@ export default defineConfig({
         ]
       }
     ],
+  },
+  vite: {
+    resolve: {
+      alias: [
+        {
+          find: /^.*\/VPFeature\.vue$/,
+          replacement: fileURLToPath(
+              new URL('../components/CustomFeature.vue', import.meta.url)
+          )
+        }
+      ]
+    }
   }
 })
