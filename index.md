@@ -7,7 +7,7 @@ hero:
   text: "汇聚海量影视剧内容"
   tagline: 好看的电影免费在线观看
   image:
-    src: ./logo.png
+    src: /logo.png
     alt: VitePress
 
 features:
@@ -26,8 +26,3 @@ features:
     details: 尚未发布
     linkText: 即将到来
 ---
-
-
-# test
-
-123
